@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muntasir's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#home" class="logo">Mohammad Muntasir Raza</a>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects" id="myProjects">My Popular Videos</a></li>
+        <li><a href="#contact" id="myContact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Islamic Educator</h1>
+        <p>
+          Assalamu-Alaikum, I am a Hafiz of Holy Quran and a passionate Islamic
+          educator.
+        </p>
+        <p>السلام علیکم، میں حافظِ قرآن اور پُرجوش دینی معلم ہوں۔</p>
+        <p class="highlight">
+          A devoted Hafiz of the Holy Quran and passionate Islamic content
+          creator, committed to teaching the Quran with tajweed, spreading
+          authentic Islamic knowledge, and inspiring the community through both
+          traditional teaching and digital platforms like YouTube.
+        </p>
+        <p>
+          قرآنِ پاک کے حافظ اور پُرجوش دینی مواد تخلیق کار، جو تجوید کے ساتھ
+          قرآن کی تعلیم دینے، مستند اسلامی علم کو عام کرنے اور تدریسی و ڈیجیٹل
+          پلیٹ فارمز جیسے یوٹیوب کے ذریعے معاشرے کی رہنمائی اور اصلاح کے لیے
+          پُرعزم ہیں۔
+        </p>
+        <a href="#contact" class="cta-button">My YouTube Channel</a>
+      </div>
+      <div class="hero-image">
+        <img src="profile.jpg" alt="Profile" class="profile-img" />
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h2>My Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-solid fa-book-quran"></i>
+          <h3>Teaching</h3>
+          <p>
+            Quran Memorization & Tajweed Teaching <br />
+            Islamic Studies & Tafseer Basics <br />
+            Public Speaking & Communication <br />
+            YouTube Content Creation (Video Editing, Script Writing,
+            Presentation)
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-language"></i>
+          <h3>Languages</h3>
+          <p>
+            Urdu <br />
+            Arabic <br />
+            Hidni <br />
+            English
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="theme-switcher" style="margin: 1rem; text-align: center">
+        <button class="theme-btn" data-theme="theme-blue">🌊 Blue</button>
+        <button class="theme-btn" data-theme="theme-duo">🎨 Duo</button>
+        <button class="theme-btn" data-theme="theme-purple">⚡ Purple</button>
+        <button class="theme-btn" data-theme="theme-orange">🌅 Orange</button>
+      </div>
+      <p>&copy; 2025 All rights reserved.</p>
+      <a href="#" target="_blank" class="fab fa-github"></a>
+      <a href="#" class="fab fa-facebook"></a>
+      <a href="#" target="_blank" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-whatsapp"></a>
+    </footer>
+    <div id="overlay" class="overlay"></div>
+    <div id="sidebar" class="sidebar">
+      <span class="close-btn" id="closeSidebar">&times;</span>
+      <div id="sidebar-content"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
